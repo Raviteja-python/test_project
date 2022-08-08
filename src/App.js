@@ -115,13 +115,13 @@ export default function BasicCard() {
               </Accordion>
             </Grid>
             <Grid item xs={6}>
-              <Accordion>
+              <Accordion style={{background:'#1f1f1f',color:'#fff',border:'1px solid gray'}}>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  expandIcon={<ExpandMoreIcon style={{color:'#fff'}} />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>Accordion 1</Typography>
+                  <Typography  style={{textDecoration:'underline'}}>Current Speaker</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography>
